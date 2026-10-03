@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MY FARM MY FUTURE</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f4f7f2;
+line-height:1.7;
+}
+
+header{
+background:#1b5e20;
+color:white;
+padding:20px;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+header h1{
+text-align:center;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+list-style:none;
+margin-top:10px;
+}
+
+nav ul li{
+margin:8px 15px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+height:100vh;
+background:url('farm-hero.png');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.overlay{
+background:rgba(0,0,0,0.55);
+width:100%;
+padding:80px;
+text-align:center;
+color:white;
+}
+
+.overlay h2{
+font-size:60px;
+}
+
+.overlay p{
+font-size:22px;
+margin-top:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:15px 30px;
+background:orange;
+color:white;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+section{
+padding:70px 10%;
+}
+
+section h2{
+color:#1b5e20;
+margin-bottom:20px;
+font-size:36px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:10px;
+}
+
+ul{
+padding-left:20px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,textarea{
+padding:15px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+background:#1b5e20;
+color:white;
+padding:15px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#2e7d32;
+}
+
+#reply{
+margin-top:20px;
+color:green;
+font-weight:bold;
+}
+
+footer{
+background:#1b5e20;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>MY FARM MY FUTURE</h1>
+
+<nav>
+<ul>
+<li>#homeHome</a></li>
+<li>#aboutAbout</a></li>
+<li>#missionMission</a></li>
+<li>#visionVision</a></li>
+<li>#dairyDairy Farm</a></li>
+<li>#poultryPoultry Farm</a></li>
+<li>#productsProducts</a></li>
+<li>#galleryGallery</a></li>
+<li>#faqFAQ</a></li>
+<li>#contactContact</a></li>
+</ul>
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<div class="overlay">
+
+<h2>MY FARM MY FUTURE</h2>
+
+<p>
+Quality Dairy Farming, Poultry Production,
+Fresh Milk, Eggs and Poultry Birds Available
+Throughout The Year.
+</p>
+
+#contact
+Contact Us
+</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About Our Farm</h2>
+
+<p>
+My Farm My Future is a modern agricultural enterprise dedicated
+to dairy farming and poultry production. We focus on producing
+high-quality milk, eggs and healthy poultry birds using modern,
+sustainable farming methods.
+
+We serve households, schools, hotels, institutions and businesses
+with reliable farm products throughout the year.
+</p>
+
+</section>
+
+<section id="mission">
+
+<h2>Our Mission</h2>
+
+<p>
+To provide nutritious dairy and poultry products while practicing
+sustainable agriculture and maintaining the highest standards
+of quality and customer satisfaction.
+</p>
+
+</section>
+
+<section id="vision">
+
+<h2>Our Vision</h2>
+
+<p>
+To become one of the most trusted and successful agricultural
+farms in Kenya, known for excellence in dairy and poultry farming.
+</p>
+
+</section>
+
+<section id="dairy">
+
+<h2>Dairy Farming</h2>
+
+<p>
+Our dairy unit consists of healthy and productive cows managed
+under proper feeding and veterinary care.
+</p>
+
+<ul>
+<li>Fresh Milk</li>
+<li>Dairy Cows</li>
+<li>Breeding Services</li>
+<li>Organic Manure</li>
+<li>Farm Training</li>
+</ul>
+
+</section>
+
+<section id="poultry">
+
+<h2>Poultry Farming</h2>
+
+<p>
+We rear different types of poultry birds for meat and egg production.
+Healthy birds are available for sale at different ages.
+</p>
+
+<ul>
+<li>Day Old Chicks</li>
+<li>One Month Chicks</li>
+<li>Growers</li>
+<li>Layers</li>
+<li>Broilers</li>
+<li>Mature Birds</li>
+<li>Fertilized Eggs</li>
+<li>Fresh Table Eggs</li>
+</ul>
+
+</section>
+
+<section id="products">
+
+<h2>Our Products</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Fresh Milk</h3>
+<p>Quality milk from healthy dairy cows.</p>
+</div>
+
+<div class="card">
+<h3>Fresh Eggs</h3>
+<p>Nutritious eggs available daily.</p>
+</div>
+
+<div class="card">
+<h3>Poultry Birds</h3>
+<p>Birds available at any age.</p>
+</div>
+
+<div class="card">
+<h3>Dairy Cattle</h3>
+<p>Healthy and productive animals.</p>
+</div>
+
+<div class="card">
+<h3>Organic Manure</h3>
+<p>Quality manure for crop farming.</p>
+</div>
+
+<div class="card">
+<h3>Farm Consultancy</h3>
+<p>Professional agricultural guidance.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Farm Gallery</h2>
+
+<div class="gallery">
+
+farm-hero.png
+
+farm-hero
+<section id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p><strong>Phone / WhatsApp:</strong> 0791501469</p>
+
+    <p><strong>Email:</strong> erastuskavili7212@gmail.com</p>
+
+    <p>
+        Feel free to contact us for:
+    </p>
+
+    <ul>
+        <li>Fresh Milk Orders</li>
+        <li>Fresh Eggs Orders</li>
+        <li>Poultry Birds Sales</li>
+        <li>Dairy Cattle Sales</li>
+        <li>Farm Consultancy</li>
+        <li>Agricultural Training</li>
+    </ul>
+
+    <br>
+
+    <form id="contactForm">
+
+        <input type="text" placeholder="Enter Your Name" required>
+
+        <input type="email" placeholder="Enter Your Email" required>
+
+        <textarea rows="6"
+        placeholder="Ask your question here..."
+        required></textarea>
+
+        <button type="submit">
+            Send Inquiry
+        </button>
+
+    </form>
+
+    <p id="reply"></p>
+
+</section>
+
+<footer>
+
+    <h2>MY FARM MY FUTURE</h2>
+
+    <p>
+        Quality Dairy Farming • Poultry Farming • Fresh Eggs • Fresh Milk
+    </p>
+
+    <br>
+
+    <p>
+        📞 Phone/WhatsApp: 0791501469
+    </p>
+    <p>
+        <div class="social-links">
+
+<h3>Follow Us</h3>
+
+https://facebook.com/myfarmmyfuture
+Facebook
+</a>
+
+https://wa.me/254791501469
+WhatsApp
+</a>
+
+https://twitter.com/myfarmmyfuture
+X (Twitter)
+</a>
+
+https://instagram.com/myfarmmyfuture
+Instagram
+</a>
+
+</div>
+
+    </p>
+
+    <p>
+        📧 Email: erastuskavili7212@gmail.com
+    </p>
+
+    <br>
+
+    <p>
+        "Building a brighter future through modern agriculture."
+    </p>
+
+    <br>
+
+    <p>
+        © 2026 My Farm My Future. All Rights Reserved.
+    </p>
+
+</footer>
+
+<script>
+
+document.getElementById("contactForm")
+.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    document.getElementById("reply").innerHTML =
+    "✅ Thank you for contacting My Farm My Future. Your inquiry has been received successfully. We shall get back to you soon. For urgent assistance, call or WhatsApp 0791501469.";
+
+    this.reset();
+
+});
+
+</script>
+
+</body>
+</html>
